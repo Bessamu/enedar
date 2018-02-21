@@ -4,3 +4,4 @@
 /webpack/
 /dist/*.js
 /webpack.config.js
+/package.dev.json
