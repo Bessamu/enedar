@@ -1,0 +1,20 @@
+.link {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: $link-border;
+  transition: $transition-main;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+    border-bottom: $link-hover-border;
+  }
+
+  &--false {
+    border-bottom: 1px dotted;
+
+    &:hover {
+      border-bottom: 1px dotted;
+    }
+  }
+}
