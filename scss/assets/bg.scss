@@ -1,0 +1,22 @@
+.bg{
+
+  &--white {
+    background-color: white;
+  }
+
+  &--default {
+    background-color: $bg-default;
+  }
+
+  &--secondary {
+    background-color: $bg-secondary;
+  }
+
+  &--muted {
+    background-color: $bg-muted;
+  }
+
+  &--blue {
+    background-color: $bg-blue;
+  }
+}

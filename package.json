@@ -1,7 +1,7 @@
 {
   "name": "enedar",
-  "version": "1.0.1",
-  "description": "Fronend library with BEM-methodology",
+  "version": "1.0.2",
+  "description": "Fronend library",
   "repository": "https://github.com/Bessamu/enedar.git",
   "author": "Pavel <pavel@alarm.ru>",
   "license": "MIT"

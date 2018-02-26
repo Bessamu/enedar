@@ -1,26 +1,31 @@
 // Colors
-$background-color: #f0f0f1;
-$second-background-color: #fff;
-$primary: #4f80e1;
-$secondary: #292c44;
-$green: #38d43f;
-
 $link-color: #4f80e1;
 $link-border: 1px solid #528af0;
 $link-hover-color: #f03462;
 $link-hover-border: 1px solid #ff3566;
 
-$h1-color: #423838;
+// Standard
+$default: #2b78bb;
+$warning: #f91a0d;
 
-$footer-color: #222222;
+// Font
+$font-muted: #adadad;
+$font-primary: #2b78bb;
+$font-secondary: #bb59ae;
+$font-warning: #de1a0d;
+
+// Backgrounds
+$bg-default: #fcfcfc;
+$bg-secondary: #f0f0f0;
+$bg-muted: #bcbcbc;
+$bg-blue: #2b78bb;
+
+// Cases
+$case-top-primary: #2b78bb;
+$case-top-secondary: #bb59ae;
+
+// Forms
+$form-border-header-color: #2b78bb;
 
 // Animate
 $transition-main: all 0.3s;
-
-// Fonts
-$normal-font-size: 18px;
-$h1-font-size: 40px;
-$line-height: 30px;
-
-// Paddings
-$block-padding: 40px 0;

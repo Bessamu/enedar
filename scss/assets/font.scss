@@ -1,6 +1,57 @@
 .font {
 
+  // Positioning
+  &--left {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
+  &--justify {
+    text-align: justify;
+  }
+
+  // Coloring
+  &--color-muted {
+    color: $font-muted;
+  }
+
+  &--color-primary {
+    color: $font-primary;
+  }
+
+  &--color-warning {
+    color: $font-warning;
+  }
+
+  &--transparent {
+    color: transparentize(black, 0.7);
+  }
+
+  &--transparent-w {
+    color: transparentize(white, 0.7);
+  }
+
+  // Sizing
+  &--primary {
+    font-weight: bold;
+  }
+
+  &--secondary {
+    color: hsl(0, 0%, 60%)
+  }
+
+  &--tertiary {
+
+  }
+
   &--large {
-    font-size: 180%;
+    font-size: 140%;
   }
 }

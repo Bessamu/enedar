@@ -1,0 +1,25 @@
+.button {
+  padding: 3px 20px;
+  background: $default;
+  color: white;
+  border: 1px solid $default;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background: darken($default, 10);
+  }
+
+  &--pull-half{
+    border-radius: 15px;
+  }
+
+  &--pull-all{
+    border-radius: 30px;
+  }
+
+  &--fill-all {
+    width: 100%;
+  }
+}

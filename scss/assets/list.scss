@@ -1,0 +1,34 @@
+.list {
+  padding-left: 0;
+
+  &__item {
+    list-style: none;
+  }
+
+  &--dotted {
+    padding-left: 40px;
+
+    .list__item {
+      list-style: disc;
+    }
+  }
+
+  &--inline {
+
+    .list__item {
+      display: inline;
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--mb-1 {
+
+    .list__item {
+      margin-bottom: 5px;
+    }
+  }
+}
