@@ -11,15 +11,30 @@
     background: darken($default, 10);
   }
 
-  &--pull-half{
+  &--pull-half {
     border-radius: 15px;
   }
 
-  &--pull-all{
+  &--pull-all {
     border-radius: 30px;
   }
 
   &--fill-all {
     width: 100%;
+  }
+
+  &--large {
+    padding: 14px 30px;
+    font-size: 160%;
+  }
+
+  &--disabled {
+    background-color: #656762;
+    cursor: no-drop;
+    border: 1px solid #656762;
+
+    &:hover {
+      background-color: #656762;
+    }
   }
 }

@@ -13,8 +13,13 @@
     }
   }
 
-  &--inline {
+  &--mb-1 {
+    .list__item {
+      margin-bottom: 5px;
+    }
+  }
 
+  &--inline {
     .list__item {
       display: inline;
       margin-right: 15px;
@@ -22,13 +27,6 @@
       &:last-child {
         margin-right: 0;
       }
-    }
-  }
-
-  &--mb-1 {
-
-    .list__item {
-      margin-bottom: 5px;
     }
   }
 }

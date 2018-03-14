@@ -10,6 +10,16 @@
     border-bottom: $link-hover-border;
   }
 
+  &--white {
+    color: white;
+    border-bottom-color: transparentize(white, 0.8);
+
+    &:hover {
+      color: white;
+      border-bottom-color: transparentize(white, 0.1);
+    }
+  }
+
   &--false {
     border-bottom: 1px dotted;
 
