@@ -1,0 +1,50 @@
+.social {
+  &__title {
+    color: $font-primary;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    min-width: 40px;
+    min-height: 40px;
+    margin: 0 5px;
+    background-size: cover !important;
+    transition: 0.3s;
+
+    &--inst {
+      background: url("/vector/social/ig.svg") no-repeat;
+    }
+
+    &--fb {
+      background: url("/vector/social/fb.svg") no-repeat;
+    }
+
+    &--vk {
+      background: url("/vector/social/vk.svg") no-repeat;
+    }
+
+    &--tw {
+      background: url("/vector/social/tw.svg") no-repeat;
+    }
+
+    &--gp {
+      background: url("/vector/social/g+.svg") no-repeat;
+    }
+  }
+
+  &__list {
+    margin-bottom: 10px;
+
+    .social__item {
+      display: inline-block;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

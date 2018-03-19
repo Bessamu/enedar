@@ -1,0 +1,25 @@
+.interest-block {
+  background: $bg-blue;
+  padding: 40px 0;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+
+  &__title {
+    padding: 0 0 20px 0;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.51);
+  }
+
+  &__call-action {
+    background: $bg-blue;
+    color: white;
+    border-color: white;
+    padding: 10px 40px;
+
+    &:hover {
+      background: white;
+      color: $bg-blue;
+      border-color: $bg-blue;
+    }
+  }
+}
