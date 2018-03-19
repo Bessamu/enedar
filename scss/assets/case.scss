@@ -1,7 +1,7 @@
 .case {
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.32);
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 4px;
@@ -85,6 +85,7 @@
   // Sizes
   &--fill {
     height: 100%;
+    margin-bottom: 0;
   }
 
   // Text's positions
