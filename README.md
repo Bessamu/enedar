@@ -9,7 +9,10 @@ yarn add enedar
 npm install enedar
 ```
 
-    
 Add to you project `enedar.min.css` or `enedar.scss`
 
 Current version `1.1.0 - "Sputnik"`
+
+**Tips**
+
+All vectors default rendering 200px * 200px
