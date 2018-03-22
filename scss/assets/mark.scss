@@ -1,0 +1,34 @@
+.mark {
+  background-color: $mark-default;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+  cursor: default;
+
+  &--primary {
+    background-color: $mark-primary;
+  }
+
+  &--secondary {
+    background-color: $mark-secondary;
+  }
+
+  &--danger {
+    background-color: $mark-danger;
+  }
+
+  &--warning {
+    background-color: $mark-warning;
+    color: #000;
+  }
+
+  &--white {
+    background-color: #fff;
+    color: #000;
+  }
+
+  &--circled {
+    border-radius: 1em;
+    padding: 0.1em 0.5em;
+  }
+}
