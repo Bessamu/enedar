@@ -1,9 +1,10 @@
 .button {
-  padding: 3px 20px;
+  display: block;
+  padding: 0.2em 1.5em;
   background: $default;
   color: white;
   border: 1px solid $default;
-  border-radius: 5px;
+  border-radius: 0.3em;
   transition: 0.3s;
   cursor: pointer;
 
@@ -11,21 +12,21 @@
     background: darken($default, 10);
   }
 
-  &--pull-half {
-    border-radius: 15px;
+  &--pill {
+    border-radius: 0.5em;
   }
 
-  &--pull-all {
-    border-radius: 30px;
+  &--pill-more {
+    border-radius: 1em;
   }
 
-  &--fill-all {
+  &--fill {
     width: 100%;
   }
 
   &--large {
-    padding: 14px 30px;
-    font-size: 160%;
+    padding: 0.6em 2em;
+    font-size: 2em;
   }
 
   &--disabled {
