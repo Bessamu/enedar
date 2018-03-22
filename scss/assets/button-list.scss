@@ -1,0 +1,26 @@
+.button-list {
+  // TODO buttons sizing in list not supported
+  .button {
+    display: inline-block;
+    border-radius: 0;
+    height: 100%;
+
+    &:first-child {
+      border-radius: 0.3em 0 0 0.3em;
+      margin-right: 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0.3em 0.3em 0;
+      margin-right: 0;
+    }
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+}
