@@ -11,7 +11,9 @@ npm install enedar
 
 Add to you project `enedar.min.css` or `enedar.scss`
 
-Current version `1.1.0 - "Sputnik"`
+Latest stable version `1.1.0 - "Sputnik"`
+
+Latest non-tested version `1.1.3`
 
 **Tips**
 

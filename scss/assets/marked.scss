@@ -1,0 +1,20 @@
+.marked {
+  background-color: $marked-default;
+  padding: 0.2em 0.3em;
+
+  &--primary {
+    background-color: $marked-primary;
+  }
+
+  &--secondary {
+    background-color: $marked-secondary;
+  }
+
+  &--muted {
+    background-color: $marked-muted;
+  }
+
+  &--danger {
+    background-color: $marked-danger;
+  }
+}
